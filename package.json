@@ -1,0 +1,25 @@
+{
+  "name": "extract-md-links",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A sample markdown link extractor",
+  "keywords": ["markdown", "url", "link", "extract", "extractor", "file", "extracts", "links", "urls"],
+  "main": "index.js",
+  "bin": {
+    "extract-md-links": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "author": "Matheus B. <mateuscc2@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "node-fetch": "^3.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
